@@ -332,6 +332,31 @@ Compared to the original regex version:
 - Documentation writing
 - MELPA preparation
 
+### Development Environment
+
+**Tools Used:**
+- **Interface**: [GitHub Copilot CLI](https://github.com/features/copilot/cli) (with Copilot Pro trial subscription)
+- **Model**: Claude Sonnet 3.5 (via Copilot CLI)
+- **Platform**: Emacs 29.1+ with tree-sitter support
+- **Development OS**: Linux
+
+**About the Tooling:**
+
+We used [GitHub Copilot CLI](https://github.com/features/copilot/cli) as the interface to access Claude Sonnet 3.5. While Copilot CLI is still relatively primitive compared to other AI CLI tools (limited UI features, basic prompt handling), its core strengths shone through:
+
+- **Tool Calls**: Executed perfectly without any issues
+- **Performance**: Excellent response speed throughout the 4-hour session
+- **Reliability**: Zero connection drops or timeouts
+- **File Operations**: Handled complex multi-file operations smoothly
+
+The combination of Copilot CLI's solid infrastructure and Claude's coding capabilities proved to be a powerful development environment. Despite the CLI's simplicity, it stayed out of the way and let the collaboration flow naturally.
+
+**Model Performance Note**: Claude Sonnet 3.5 demonstrated exceptional capability in:
+- Understanding Emacs Lisp idioms and tree-sitter APIs
+- Maintaining context across long development sessions
+- Writing documentation that captures both technical and human elements
+- Iterative refinement based on real-world testing feedback
+
 ### What Makes This Special
 
 1. **Real User Need**: Born from genuine accessibility requirements
