@@ -162,7 +162,7 @@ Or enable it automatically for all Markdown files:
    ;; Using use-package
    (use-package markdown-modern
      :hook (markdown-mode . markdown-modern-mode))
-   
+
    ;; Or manually
    (require 'markdown-modern)
    (add-hook 'markdown-mode-hook #'markdown-modern-mode)
@@ -180,7 +180,7 @@ Or enable it automatically for all Markdown files:
   :config
   ;; Customize bullet symbols
   (setq markdown-modern-bullets '("◉" "○" "◆" "▸" "•" "·"))
-  
+
   ;; Enable all features
   (setq markdown-modern-hide-bold-markup t)
   (setq markdown-modern-prettify-checkboxes t)
@@ -215,12 +215,12 @@ Once enabled, `markdown-modern-mode` automatically enhances your Markdown buffer
 ```markdown
 # Level 1 Heading          →  ◉ Level 1 Heading
   Content indented              Content indented
-  
+
   ## Level 2 Heading       →    ○ Level 2 Heading
     More content                  More content indented
-    
+
     **bold text**          →      bold text (no delimiters)
-    
+
     - [ ] Todo item        →      - ☐ Todo item
     - [x] Done item        →      - ☑ Done item
 ```
@@ -336,13 +336,13 @@ Compared to the original regex version:
 
 **Tools Used:**
 - **Interface**: [GitHub Copilot CLI](https://github.com/features/copilot/cli) (with Copilot Pro trial subscription)
-- **Model**: Claude Sonnet 3.5 (via Copilot CLI)
+- **Model**: Claude Sonnet 4.5 (via Copilot CLI)
 - **Platform**: Emacs 29.1+ with tree-sitter support
 - **Development OS**: Linux
 
 **About the Tooling:**
 
-We used [GitHub Copilot CLI](https://github.com/features/copilot/cli) as the interface to access Claude Sonnet 3.5. While Copilot CLI is still relatively primitive compared to other AI CLI tools (limited UI features, basic prompt handling), its core strengths shone through:
+We used [GitHub Copilot CLI](https://github.com/features/copilot/cli) as the interface to access Claude Sonnet 4.5. While Copilot CLI is still relatively primitive compared to other AI CLI tools (limited UI features, basic prompt handling), its core strengths shone through:
 
 - **Tool Calls**: Executed perfectly without any issues
 - **Performance**: Excellent response speed throughout the 4-hour session
@@ -351,7 +351,7 @@ We used [GitHub Copilot CLI](https://github.com/features/copilot/cli) as the int
 
 The combination of Copilot CLI's solid infrastructure and Claude's coding capabilities proved to be a powerful development environment. Despite the CLI's simplicity, it stayed out of the way and let the collaboration flow naturally.
 
-**Model Performance Note**: Claude Sonnet 3.5 demonstrated exceptional capability in:
+**Model Performance Note**: Claude Sonnet 4.5 demonstrated exceptional capability in:
 - Understanding Emacs Lisp idioms and tree-sitter APIs
 - Maintaining context across long development sessions
 - Writing documentation that captures both technical and human elements
