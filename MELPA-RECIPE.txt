@@ -1,0 +1,15 @@
+;; MELPA Recipe for markdown-modern
+;; 
+;; This file contains the recipe to be submitted to MELPA.
+;; 
+;; Location: melpa/recipes/markdown-modern
+;; 
+;; To test locally:
+;; 1. Fork https://github.com/melpa/melpa
+;; 2. Add this to recipes/markdown-modern
+;; 3. Run: make recipes/markdown-modern
+;; 4. Submit PR
+
+(markdown-modern :fetcher github
+                 :repo "ahmetus/markdown-modern"
+                 :files ("*.el"))

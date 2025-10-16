@@ -1,0 +1,15 @@
+# Emacs
+*.elc
+*~
+\#*\#
+.\#*
+*.bak
+*.orig
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp
+*.log
+*.tmp
