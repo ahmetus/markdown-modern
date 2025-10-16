@@ -64,6 +64,7 @@ While the [GitHub Copilot CLI](https://github.com/features/copilot/cli) interfac
 - Basic UI/UX (no rich formatting, limited visual feedback)
 - Simple prompt interface
 - Fewer convenience features
+- **No image recognition** - Cannot view or analyze screenshots, images, or visual content (a significant bottleneck for visual debugging and design work)
 
 **Bottom Line**: For actual coding work, Copilot CLI's reliability and performance matter more than fancy features. The combination of Copilot CLI's solid infrastructure with Claude Sonnet 4.5's capabilities created a highly productive development environment.
 

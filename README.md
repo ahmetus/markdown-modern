@@ -17,6 +17,20 @@ Modern, beautiful Markdown editing for Emacs. Like `org-modern`, but for Markdow
 - **High Performance** - Tree-sitter powered, handles 100k+ line files smoothly
 - **Zero Flickering** - Smooth rendering with smart caching
 
+## Screenshots
+
+### Before and After Comparison
+
+![Comparison 1](comparasion.png)
+
+*Top: Standard Markdown view | Bottom: With markdown-modern enabled*
+
+![Comparison 2](comparasion2.png)
+
+*Before and after comparison showing the visual transformation*
+
+> Screenshots captured at 3408×2066 resolution with a modern Emacs theme, demonstrating the package's visual enhancements on real content.
+
 ## Requirements
 
 - Emacs 29.1 or later (with tree-sitter support)
@@ -342,14 +356,14 @@ Compared to the original regex version:
 
 **About the Tooling:**
 
-We used [GitHub Copilot CLI](https://github.com/features/copilot/cli) as the interface to access Claude Sonnet 4.5. While Copilot CLI is still relatively primitive compared to other AI CLI tools (limited UI features, basic prompt handling), its core strengths shone through:
+We used [GitHub Copilot CLI](https://github.com/features/copilot/cli) as the interface to access Claude Sonnet 4.5. While Copilot CLI is still relatively primitive compared to other AI CLI tools (limited UI features, basic prompt handling, and notably **no image recognition capability**—a significant limitation for visual work), its core strengths shone through:
 
 - **Tool Calls**: Executed perfectly without any issues
 - **Performance**: Excellent response speed throughout the 4-hour session
 - **Reliability**: Zero connection drops or timeouts
 - **File Operations**: Handled complex multi-file operations smoothly
 
-The combination of Copilot CLI's solid infrastructure and Claude's coding capabilities proved to be a powerful development environment. Despite the CLI's simplicity, it stayed out of the way and let the collaboration flow naturally.
+The combination of Copilot CLI's solid infrastructure and Claude's coding capabilities proved to be a powerful development environment. Despite the CLI's simplicity and lack of visual input support, it stayed out of the way and let the collaboration flow naturally.
 
 **Model Performance Note**: Claude Sonnet 4.5 demonstrated exceptional capability in:
 - Understanding Emacs Lisp idioms and tree-sitter APIs
