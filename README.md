@@ -2,8 +2,10 @@
 
 Modern, beautiful Markdown editing for Emacs. Like `org-modern`, but for Markdown.
 
-[![MELPA](https://melpa.org/packages/markdown-modern-badge.svg)](https://melpa.org/#/markdown-modern)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![GitHub release](https://img.shields.io/github/v/release/ahmetus/markdown-modern)](https://github.com/ahmetus/markdown-modern/releases)
+
+> **Note**: MELPA badge will be added automatically after package acceptance.
 
 ## Features
 
