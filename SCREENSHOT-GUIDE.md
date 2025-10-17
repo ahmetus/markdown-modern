@@ -248,7 +248,3 @@ Before publishing screenshots:
 - [ ] No UI glitches or artifacts
 - [ ] Optimized file size (< 1MB)
 - [ ] Clear before/after labels
-
----
-
-**Ready to take your screenshots!** Follow this guide and you'll have professional, impactful images. 📸✨
