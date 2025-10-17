@@ -116,7 +116,7 @@ git clone https://github.com/ahmetus/markdown-modern.git
 (require 'markdown-modern)
 (add-hook 'markdown-mode-hook #'markdown-modern-mode)
 ```
-### Method 5: From MELPA (after approval)
+### Method 5: From MELPA (not approved yet, after approval)
 
 Once approved on MELPA:
 
