@@ -178,7 +178,3 @@ After first stable release:
 **After MELPA**: Add MELPA badge (just update one line)  
 **Process**: Completely automatic once on MELPA  
 **No custom SVG needed**: MELPA generates it for you
-
----
-
-**Don't worry about MELPA badge now—it'll be automatically available after acceptance!** ✨
