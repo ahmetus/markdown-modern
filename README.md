@@ -23,7 +23,7 @@ Modern, beautiful Markdown editing for Emacs. Like `org-modern`, but for Markdow
 
 ![Comparison 1](comparasion.png)
 
-*Top: Standard Markdown view | Bottom: With markdown-modern enabled*
+*Left: Standard Markdown view | Right: With markdown-modern enabled*
 
 ![Comparison 2](comparasion2.png)
 
