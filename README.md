@@ -297,9 +297,7 @@ This package is the result of a unique collaboration between a human developer a
 
 ### How It Started
 
-Ahmet Usal, an early-retired IT professional and web developer managing ADHD and panic attack challenges, had a vision: create productivity tools to help return to programming with LLM assistance. The goal was to build a "Cognitive Assistant" in Emacs that reduces cognitive load and makes programming accessible again.
-
-He had created an initial regex-based version (`markdown-modern-headers.el`) that worked well for small files but struggled with performance on larger documents and had reliability issues with code block indentation.
+Ahmet Usal, an early-retired IT professional had created an initial regex-based version (`markdown-modern-headers.el`) that worked well for small files but struggled with performance on larger documents and had reliability issues with code block indentation.
 
 ### The Transformation
 
