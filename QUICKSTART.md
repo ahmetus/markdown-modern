@@ -117,7 +117,3 @@ M-x treesit-install-language-grammar RET markdown RET
 2. Adjust customizations to your taste
 3. Report any issues
 4. Share feedback!
-
----
-
-**Enjoy!** ✨
