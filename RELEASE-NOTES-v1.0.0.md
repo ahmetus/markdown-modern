@@ -39,13 +39,6 @@ This is the initial stable release of `markdown-modern`, bringing modern, visual
 
 ## 📦 Installation
 
-### From MELPA (Recommended)
-```elisp
-(use-package markdown-modern
-  :ensure t
-  :hook (markdown-mode . markdown-modern-mode))
-```
-
 ### Using straight.el
 ```elisp
 (use-package markdown-modern
@@ -60,7 +53,12 @@ This is the initial stable release of `markdown-modern`, bringing modern, visual
        :rev :newest)
   :hook (markdown-mode . markdown-modern-mode))
 ```
-
+### From MELPA (Not approved yet)
+```elisp
+(use-package markdown-modern
+  :ensure t
+  :hook (markdown-mode . markdown-modern-mode))
+```
 See [INSTALLATION.md](INSTALLATION.md) for more methods.
 
 ## 🎯 Requirements
@@ -100,6 +98,3 @@ None currently identified.
 - **Issues**: https://github.com/ahmetus/markdown-modern/issues
 - **MELPA**: https://melpa.org/#/markdown-modern (pending approval)
 
----
-
-**Enjoy beautiful, modern Markdown editing in Emacs!** ✨
