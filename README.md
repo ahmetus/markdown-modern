@@ -5,8 +5,6 @@ Modern, beautiful Markdown editing for Emacs. Like `org-modern`, but for Markdow
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![GitHub release](https://img.shields.io/github/v/release/ahmetus/markdown-modern)](https://github.com/ahmetus/markdown-modern/releases)
 
-> **Note**: MELPA badge will be added automatically after package acceptance.
-
 ## Features
 
 - **Beautiful Bullets** - Replace `#` marks with elegant symbols (◉ ○ ◆ ▸ • ·)
@@ -72,17 +70,7 @@ Or automatically with `treesit-auto`:
   (global-treesit-auto-mode))
 ```
 
-### Method 1: From MELPA (Recommended, after approval)
-
-Once approved on MELPA:
-
-```elisp
-(use-package markdown-modern
-  :ensure t
-  :hook (markdown-mode . markdown-modern-mode))
-```
-
-### Method 2: Using straight.el
+### Method 1: Using straight.el
 
 ```elisp
 (use-package markdown-modern
@@ -90,7 +78,7 @@ Once approved on MELPA:
   :hook (markdown-mode . markdown-modern-mode))
 ```
 
-### Method 3: Using use-package with :vc (Emacs 30+)
+### Method 2: Using use-package with :vc (Emacs 30+)
 
 For Emacs 30+ with built-in `use-package`:
 
@@ -101,7 +89,7 @@ For Emacs 30+ with built-in `use-package`:
   :hook (markdown-mode . markdown-modern-mode))
 ```
 
-### Method 4: Manual Installation from Git
+### Method 3: Manual Installation from Git
 
 1. Clone the repository:
 ```bash
@@ -116,7 +104,7 @@ git clone https://github.com/ahmetus/markdown-modern.git
 (add-hook 'markdown-mode-hook #'markdown-modern-mode)
 ```
 
-### Method 5: Manual Installation (Download)
+### Method 4: Manual Installation (Download)
 
 1. Download `markdown-modern.el` from the [latest release](https://github.com/ahmetus/markdown-modern/releases)
 
@@ -127,6 +115,15 @@ git clone https://github.com/ahmetus/markdown-modern.git
 (add-to-list 'load-path "~/.emacs.d/lisp")  ; or your chosen directory
 (require 'markdown-modern)
 (add-hook 'markdown-mode-hook #'markdown-modern-mode)
+```
+### Method 5: From MELPA (after approval)
+
+Once approved on MELPA:
+
+```elisp
+(use-package markdown-modern
+  :ensure t
+  :hook (markdown-mode . markdown-modern-mode))
 ```
 
 ### Verifying Installation
@@ -477,7 +474,5 @@ This repository includes comprehensive guides to help you use and understand the
 These documents preserve the complete development process and serve as templates for others building Emacs packages.
 
 ---
-
-**Enjoy beautiful, modern Markdown editing in Emacs!** ✨
 
 *This package is a testament to human creativity enhanced by AI collaboration. Built with care, tested thoroughly, and shared freely with the Emacs community.*
