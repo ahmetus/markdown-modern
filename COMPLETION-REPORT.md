@@ -305,7 +305,3 @@ The package is:
 - MELPA submission: 5 minutes
 - MELPA review: 1-7 days
 - Package live on MELPA: ~1 week
-
----
-
-**This has been an incredible collaboration! Enjoy your beautiful Markdown editing experience!** ✨🎉
